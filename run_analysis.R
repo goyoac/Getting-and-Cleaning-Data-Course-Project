@@ -58,8 +58,8 @@ y[,1] = activities_labels[y[,1], 2]
 
 # 4 - Appropriately labels the data set with descriptive variable names. 
 XcolNames <- gsub("\\(\\)", "", features[measurements, 2]) # remove "()"
-XcolNames <- gsub("mean", "Mean", XcolNames) # capitalize M
-XcolNames <- gsub("std", "StdDev", XcolNames) # capitalize S
+XcolNames <- gsub("mean", "Mean", XcolNames) # subs "mean" by "Mean"
+XcolNames <- gsub("std", "StdDev", XcolNames) # subs "std" by "StdDev"
 XcolNames <- gsub("-", "" , XcolNames) # remove "-" 
 XcolNames <- gsub("^(t)","time",XcolNames) # subs "t" by "time"
 XcolNames <- gsub("^(f)","freq",XcolNames) # subs "f" by "freq"

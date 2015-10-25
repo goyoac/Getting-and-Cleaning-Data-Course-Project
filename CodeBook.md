@@ -30,8 +30,8 @@ activity labels are read to name the activities in y
 ### 4. Appropriately labels the data set with descriptive variable names. 
 column names are changed for clarity with the following:
 * remove "()"
-* capitalize M
-* capitalize S
+* subs "mean" by "Mean"
+* subs "std" by "StdDev"
 * remove "-" 
 * subs "t" by "time"
 * subs "f" by "freq"
