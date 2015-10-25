@@ -74,12 +74,12 @@ The first tidy data set is built joining X, subject and y
 | timeBodyGyroStdDevX | Standard deviation of body gyroscope measurement for X direction
 | timeBodyGyroStdDevY | Standard deviation of body gyroscope measurement for Y direction
 | timeBodyGyroStdDevZ | Standard deviation of body gyroscope measurement for Z direction
-| timeBodyGyrojerkMeanX | Mean jerk signal of body for X direction
-| timeBodyGyrojerkMeanY | Mean jerk signal of body for Y direction
-| timeBodyGyrojerkMeanZ | Mean jerk signal of body for Z direction
-| timeBodyGyrojerkStdDevX | Standard deviation of jerk signal of body for X direction
-| timeBodyGyrojerkStdDevY | Standard deviation of jerk signal of body for Y direction
-| timeBodyGyrojerkStdDevZ | Standard deviation of jerk signal of body for Z direction
+| timeBodyGyroJerkMeanX | Mean jerk signal of body for X direction
+| timeBodyGyroJerkMeanY | Mean jerk signal of body for Y direction
+| timeBodyGyroJerkMeanZ | Mean jerk signal of body for Z direction
+| timeBodyGyroJerkStdDevX | Standard deviation of jerk signal of body for X direction
+| timeBodyGyroJerkStdDevY | Standard deviation of jerk signal of body for Y direction
+| timeBodyGyroJerkStdDevZ | Standard deviation of jerk signal of body for Z direction
 | timeBodyAccMagMean | Mean magnitude of body Acc
 | timeBodyAccMagStdDev | Standard deviation of magnitude of body Acc
 | timeGravityAccMagMean | Mean gravity Acceleration magnitude
