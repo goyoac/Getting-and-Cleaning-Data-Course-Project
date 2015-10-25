@@ -23,6 +23,10 @@ if (!require("plyr")) {
 
 require(plyr)
 
+message ("Getting and Cleaning Data Course Project")
+message ("by Gregorio Ambrosio Cestero")
+message ("Please, don't forget to comment or change your working directory in the script (line 31) !!!")
+
 #Set working directory. Change this to your working directory
 setwd("~/workspace/coursera/datasciencecoursera/03 Getting and Cleaning Data")
 
