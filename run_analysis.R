@@ -74,7 +74,7 @@ TidyDataSet1st = cbind(X,subject,y)
 # 5 - From the data set in step 4, creates a second, independent tidy data set
 #     with the average of each variable for each activity and each subject.
 
-TidyDataSet2nd <- ddply(TidyDataSet1st, .(subject, activity), 
+TidyDataSet2nd <- ddply(TidyDataSet1st, .(activity, subject), 
                         function(x) colMeans(x[, 1:66]))
 
 write.table(TidyDataSet2nd, "TidyDataSet.txt", row.name=FALSE)

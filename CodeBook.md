@@ -39,10 +39,12 @@ column names are changed for clarity with the following:
 
 Also "activity" and "subject" are added.
 
-### 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-`ddply(TidyDataSet1st, .(subject, activity), function(x) colMeans(x[, 1:66]))` is applied to the step 4 data set
+The first tidy data set is built joining X, subject and y
 
-## Variable Descriptions in the tidy data set
+### 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+`ddply(TidyDataSet1st, .(activity, subject), function(x) colMeans(x[, 1:66]))` is applied to the step 4 data set
+
+## Variable Descriptions in the final tidy data set
 
 | Variable | Description
 -----------|-------------
