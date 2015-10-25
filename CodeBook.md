@@ -22,13 +22,13 @@ For each record in the UCI HAR Dataset is provided:
 
 ##Transformations
 ### 1. Merges the training and the test sets to create one data set.
-X,y, and subject train and test sets are read and merged through `rbind`
+X,y, and subject train and test sets are read and joined through `rbind`
 ### 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 features are read to extract through `grep` the measurements on the mean and standard deviation 
 ### 3. Uses descriptive activity names to name the activities in the data set
 activity labels are read to name the activities in y
 ### 4. Appropriately labels the data set with descriptive variable names. 
-Column names are changed for clarity with the following:
+column names are changed for clarity with the following:
 * remove "()"
 * capitalize M
 * capitalize S
