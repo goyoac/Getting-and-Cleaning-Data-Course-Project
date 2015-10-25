@@ -21,7 +21,7 @@ The data for the project is [here](https://d396qusza40orc.cloudfront.net/getdata
 `run_analysis.R` contains all the code to perform the previous steps. Previously to run it, you need to decompress the zip file in the same directory as the script.
 
 ### CodeBook.md
-`CodeBook.md`  describes the variables, the data, and any transformations or work performed to clean up the data 
+`CodeBook.md` describes the variables, the data, and any transformations or work performed to clean up the data 
 
 ### TidyDataSet.txt
-`TidyDataSet.txt`  tidy data set with the average of each variable for each activity and each subject.
+`TidyDataSet.txt`  is the tidy data set with the average of each variable for each activity and each subject.
