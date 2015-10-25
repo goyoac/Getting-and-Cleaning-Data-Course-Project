@@ -17,7 +17,15 @@
 ################################################################################
 
 
-library(plyr)
+if (!require("plyr")) {
+        install.packages("plyr")
+}
+
+require(plyr)
+
+#Set working directory. Change this to your working directory
+#setwd("~/workspace/coursera/datasciencecoursera/03 Getting and Cleaning Data")
+
 
 # 1 - Merges the training and the test sets to create one data set.
 
