@@ -57,9 +57,9 @@ XcolNames <- gsub("\\(\\)", "", features[measurements, 2]) # remove "()"
 XcolNames <- gsub("mean", "Mean", XcolNames) # capitalize M
 XcolNames <- gsub("std", "StdDev", XcolNames) # capitalize S
 XcolNames <- gsub("-", "" , XcolNames) # remove "-" 
-XcolNames <- gsub("^(t)","time",XcolNames)
-XcolNames <- gsub("^(f)","freq",XcolNames)
-XcolNames <- gsub("([Bb]ody[Bb]ody|[Bb]ody)","Body",XcolNames)
+XcolNames <- gsub("^(t)","time",XcolNames) # subs "t" by "time"
+XcolNames <- gsub("^(f)","freq",XcolNames) # subs "f" by "freq"
+XcolNames <- gsub("([Bb]ody[Bb]ody|[Bb]ody)","Body",XcolNames) # let only one "Body"
 
 names(X) <- XcolNames
 names(y) <- "activity"
